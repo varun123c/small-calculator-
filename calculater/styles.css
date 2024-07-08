@@ -1,0 +1,19 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 100px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: #e09019;
+    border: 1px solid #da1010;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #14f0b9;
+  }
+  
